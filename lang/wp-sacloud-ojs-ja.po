@@ -1,0 +1,253 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-11-28 09:26+0900\n"
+"PO-Revision-Date: 2016-11-28 09:40+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: lang\n"
+"X-Poedit-SearchPath-1: tpl\n"
+"X-Poedit-SearchPath-2: wp-sacloud-ojs.php\n"
+"X-Poedit-SearchPath-3: classes\n"
+"X-Poedit-SearchPath-4: wp-cli.php\n"
+
+#: classes/Options.php:145 classes/Options.php:151 classes/Options.php:157
+#, php-format
+msgid "%s is required."
+msgstr "%sを入力してください"
+
+#: classes/Options.php:145 classes/Options.php:177
+msgid "AccessKey"
+msgstr "アクセスキーID"
+
+#: classes/Options.php:151 classes/Options.php:190
+msgid "Secret"
+msgstr "シークレットアクセスキー"
+
+#: classes/Options.php:157 classes/Options.php:202
+msgid "Bucket"
+msgstr "バケット"
+
+#: classes/Options.php:177 classes/Options.php:190 classes/Options.php:202
+#, php-format
+msgid "%s is too long."
+msgstr "%sが長すぎます"
+
+#: classes/Options.php:221 wp-cli.php:30
+msgid "API Token Authentication error"
+msgstr "入力されたAPIトークンでの認証に失敗しました"
+
+#: tpl/setting.php:5
+msgid "Setting SakuraCloud ObjectStorage"
+msgstr "さくらのクラウド オブジェクトストレージ設定"
+
+#: tpl/setting.php:7
+msgid ""
+"Please Input the API tokens for the SakuraCloud ObjectStorage. No account? "
+"Let's "
+msgstr ""
+"さくらのクラウド オブジェクトストレージのAPIトークン情報を入力してください。"
+"アカウントをお持ちでない場合は会員登録を行ってください。"
+
+#: tpl/setting.php:8
+msgid "https://secure.sakura.ad.jp/signup3/member-register/input.html"
+msgstr "https://secure.sakura.ad.jp/signup3/member-register/input.html"
+
+#: tpl/setting.php:9
+msgid "signup"
+msgstr "[会員登録]"
+
+#: tpl/setting.php:15
+msgid "Basic settings"
+msgstr "基本設定"
+
+#: tpl/setting.php:18
+msgid "ObjectStorage AccessKey"
+msgstr "アクセスキーID"
+
+#: tpl/setting.php:28
+msgid "ObjectStorage Secret"
+msgstr "シークレットアクセスキー"
+
+#: tpl/setting.php:38
+msgid "Bucket Name"
+msgstr "バケットの名前"
+
+#: tpl/setting.php:49
+msgid "Use SSL"
+msgstr "SSL"
+
+#: tpl/setting.php:53
+msgid "Use SSL protocol"
+msgstr "SSLを利用する"
+
+#: tpl/setting.php:58
+msgid "Use cache"
+msgstr "キャッシュ"
+
+#: tpl/setting.php:62
+msgid "Use Cache URL"
+msgstr "キャッシュ配信URLを利用する"
+
+#: tpl/setting.php:68
+msgid "Check the connection"
+msgstr "入力したAPIトークンでテスト接続"
+
+#: tpl/setting.php:74
+msgid "Advance settings"
+msgstr "高度な設定"
+
+#: tpl/setting.php:77
+msgid "Delete file"
+msgstr "ファイル削除"
+
+#: tpl/setting.php:81
+msgid "Delete file on server"
+msgstr "アップロード完了時にファイルを削除する"
+
+#: tpl/setting.php:82
+msgid "Delete file on the WordPress server after uploaded to ObjectStorage"
+msgstr ""
+"オブジェクトストレージにファイルをアップロードした後、WordPressサーバ上のファ"
+"イルを削除します。"
+
+#: wp-cli.php:39
+msgid "Uploaded all images to ObjectStorage."
+msgstr "アップロードが完了しました"
+
+#: wp-sacloud-ojs.php:65
+msgid "ObjectStorage settings is incompleted"
+msgstr "オブジェクトストレージの設定が完了していません。"
+
+#: wp-sacloud-ojs.php:65 wp-sacloud-ojs.php:81
+msgid "Settings"
+msgstr "設定"
+
+#: wp-sacloud-ojs.php:88
+msgid "ObjectStorage"
+msgstr "オブジェクトストレージ"
+
+#: wp-sacloud-ojs.php:130
+msgid "Connection was Successfully."
+msgstr "接続に成功しました"
+
+#: wp-sacloud-ojs.php:137
+msgid "Connection Error"
+msgstr "接続に失敗しました"
+
+#~ msgid "https://secure.sakura.ad.jp/member-regist/input"
+#~ msgstr "https://secure.sakura.ad.jp/member-regist/input"
+
+#~ msgid "Uploading all images to ObjectStorage."
+#~ msgstr "全ての画像をオブジェクトストレージにアップロードします。"
+
+#~ msgid "Resynchronization result."
+#~ msgstr "再同期結果"
+
+#~ msgid "Container Name"
+#~ msgstr "コンテナ名"
+
+#~ msgid "File Types"
+#~ msgstr "ファイルタイプ"
+
+#~ msgid "Extensions"
+#~ msgstr "拡張子リスト"
+
+#~ msgid ""
+#~ "The media files that has these extensions will be uploaded to the Object "
+#~ "Storage. You can use comma separated format to specify more than "
+#~ "one(Example: \"png,jpg,gif,mov,wmv\")."
+#~ msgstr ""
+#~ "アップロードする拡張子を指定します。拡張子は半角カンマ区切りで複数指定可能"
+#~ "です(例: png,jpg,gif,mov,wmv)。"
+
+#~ msgid "If this field is blank, Everything will be uploaded."
+#~ msgstr "空欄の場合は全てのファイル形式がアップロード対象となります。"
+
+#~ msgid "Resynchronization"
+#~ msgstr "再同期"
+
+#~ msgid ""
+#~ "Resynchronization all media files to the Object Storage. It may take a "
+#~ "long time."
+#~ msgstr ""
+#~ "サーバ上のメディアファイルを全てオブジェクトストレージにアップロードし直し"
+#~ "ます。この実行には時間がかかる場合があります。"
+
+#~ msgid "SakuraCloud ObjectStorage"
+#~ msgstr "さくらのクラウド オブジェクトストレージ"
+
+#~ msgid "Synchronization options"
+#~ msgstr "同期オプション"
+
+#~ msgid ""
+#~ "Delete the object from the object storage when the library file is "
+#~ "deleted."
+#~ msgstr ""
+#~ "ライブラリからメディアが削除されたとき、オブジェクトストレージ上のメディア"
+#~ "も削除する。"
+
+#~ msgid "API Account"
+#~ msgstr "APIアカウント名"
+
+#~ msgid "API Password"
+#~ msgstr "APIパスワード"
+
+#~ msgid "Tenant ID"
+#~ msgstr "テナントID"
+
+#~ msgid "Auth URL"
+#~ msgstr "Auth URL"
+
+#~ msgid "Region"
+#~ msgstr "リージョン"
+
+#~ msgid "Service Name"
+#~ msgstr "サービス名"
+
+#~ msgid ""
+#~ "Container name that media files is uploaded. If the container not found, "
+#~ "It will create automatically."
+#~ msgstr ""
+#~ "メディアファイルが格納させるコンテナ名を指定します。コンテナが存在しない場"
+#~ "合は自動的に作成されます。"
+
+#~ msgid "The plugin will set the ACL to allow public access."
+#~ msgstr ""
+#~ "コンテナにはプラグインによって自動的に公開アクセス権が付与されます。"
+
+#~ msgid ""
+#~ "Type the API informations for the ConoHa Object storage. No account? "
+#~ "Let's "
+#~ msgstr ""
+#~ "ConoHaオブジェクトストレージ(もしくはOpenStackシステム)のAPI情報を入力して"
+#~ "ください。アカウントをお持ちで無い場合はサインアップしてください。"
+
+#~ msgid "https://www.conoha.jp/en/"
+#~ msgstr "https://www.conoha.jp/"
+
+#~ msgid "Setting ConoHa Object Sync"
+#~ msgstr "ConoHa Object Sync設定"
+
+#~ msgid ""
+#~ "The media files that has these extensions will be uploaded to the Object "
+#~ "Storage. You can use comma separated format to specify more than "
+#~ "one(Example: 'png,jpg,gif,mov,wmv')."
+#~ msgstr ""
+#~ "アップロードする拡張子を指定します。拡張子は半角カンマ区切りで複数指定可能"
+#~ "です(例: png,jpg,gif,mov,wmv)。"
+
+#~ msgid ""
+#~ "Delete the uploaded file from the local storage after a successful upload "
+#~ "to the object storage."
+#~ msgstr ""
+#~ "オブジェクトストレージへのアップロードが成功した場合、ローカルからファイル"
+#~ "を削除する。"
